@@ -1,7 +1,6 @@
 package com.kasun.dto;
 
 public class Trxn {
-
 	@Override
 	public String toString() {
 		return "Trxn [trxnNo=" + trxnNo + ", trxnType=" + trxnType + ", fromAccount=" + fromAccount + ", payeeName="
