@@ -116,7 +116,6 @@ public class TransactionController {
 			trxn.setStatus("FAIL");
 			trxn.setError(" Account Debit fail.");
 		}
-
 		return trxn;
 	}
 	
@@ -142,5 +141,4 @@ public class TransactionController {
 		
 		return res;
 	}
-
 }
